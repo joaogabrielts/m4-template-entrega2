@@ -17,6 +17,3 @@ booksRouter.patch("/:id",IsBookIdValid.execute,IsBookNameValid.execute,booksCont
 
 booksRouter.delete("/:id",IsBookIdValid.execute,booksControllers.DeleteBook)
 
-//IsBookIdValid.execute
-
-//IsBookNameValid.execute,
