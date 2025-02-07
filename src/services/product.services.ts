@@ -40,4 +40,5 @@ export class BooksServices {
 
     booksDatabase.splice(index, 1);
   }
+  delete(){}
 }
